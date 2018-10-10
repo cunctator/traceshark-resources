@@ -7,7 +7,7 @@ You can find traceshark here:
 
 # Contents
 
-Currently, the only thing available in this repository is:
+Currently, the only things available in this repository are:
  * Four sample traces in [sample-traces2](https://github.com/cunctator/traceshark-resources/tree/master/sample-traces2). These sample traces were obtained with perf when opening a large, circa 2GB, trace with traceshark.
  * A [README.txt](https://raw.githubusercontent.com/cunctator/traceshark-resources/master/sample-traces2/README.txt) that describes the traces.
  * There is a screenshot for each trace, to show what it is supposed to look like.
@@ -20,7 +20,7 @@ xz -dc xz -dc file_to_open_with_traceshark.asc.xz > file_to_open_with_traceshark
 ```
 
 The output file is the one that you open with traceshark. For more info about how to use traceshark, see the traceshark repository:
-[https://github.com/cunctator/traceshark](https://github.com/cunctator/traceshark])
+[https://github.com/cunctator/traceshark](https://github.com/cunctator/traceshark)
 
 # What is it supposed to look like in traceshark?
 
