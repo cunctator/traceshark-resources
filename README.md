@@ -8,14 +8,15 @@ You can find traceshark here:
 # Contents
 
 Currently, the only thing available in this repository is:
- * A sample trace in [sample-traces/traceshark-opening-large-file.asc.xz](https://raw.githubusercontent.com/cunctator/traceshark-resources/master/sample-traces/traceshark-opening-large-file.asc.xz). This sample trace was obtained with perf when opening a large, circa 1.5GB, trace with traceshark.
- * A [screenshot](https://raw.githubusercontent.com/cunctator/traceshark-resources/master/sample-traces/traceshark-opening-large-file.png) of how it would/could/should look like.
+ * Four sample traces in [sample-traces2](https://github.com/cunctator/traceshark-resources/tree/master/sample-traces2). These sample traces were obtained with perf when opening a large, circa 2GB, trace with traceshark.
+ * A [README.txt](https://raw.githubusercontent.com/cunctator/traceshark-resources/master/sample-traces2/README.txt) that describes the traces.
+ * There is a screenshot for each trace, to show what it is supposed to look like.
 
 # How to use
 
-You only need to unpack the file like this:
+You only need to unpack the files ending with .asc.xz like this:
 ```
-xz -dc sample-traces/traceshark-opening-large-file.asc.xz > sample-traces/traceshark-opening-large-file.asc
+xz -dc xz -dc file_to_open_with_traceshark.asc.xz > file_to_open_with_traceshark.asc
 ```
 
 The output file is the one that you open with traceshark. For more info about how to use traceshark, see the traceshark repository:
@@ -23,5 +24,5 @@ The output file is the one that you open with traceshark. For more info about ho
 
 # What is it supposed to look like in traceshark?
 
-If you use KDE and have a monitor with non-standard 1920x1920 resolution, the sample file should look something like this:
-![Screenshot of traceshark](https://raw.githubusercontent.com/cunctator/traceshark-resources/master/sample-traces/traceshark-opening-large-file.png)
+If you use KDE and have a monitor with non-standard 1920x1920 resolution, you should see something like this:
+![Screenshot of traceshark](https://raw.githubusercontent.com/cunctator/traceshark-resources/master/sample-traces2/4cpu-ramload/screenshot.png)
