@@ -25,4 +25,4 @@ The output file is the one that you open with traceshark. For more info about ho
 # What is it supposed to look like in traceshark?
 
 If you use KDE and have a monitor with non-standard 1920x1920 resolution, you should see something like this:
-![Screenshot of traceshark](https://raw.githubusercontent.com/cunctator/traceshark-resources/master/sample-traces2/4cpu-ramload/screenshot.png)
+![Screenshot of traceshark](https://raw.githubusercontent.com/cunctator/traceshark-resources/master/sample-traces3/4cpu-ramload/screenshot.png)
