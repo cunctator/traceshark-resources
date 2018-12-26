@@ -8,8 +8,8 @@ You can find traceshark here:
 # Contents
 
 Currently, the only things available in this repository are:
- * Four sample traces in [sample-traces2](https://github.com/cunctator/traceshark-resources/tree/master/sample-traces2). These sample traces were obtained with perf when opening a large, circa 2GB, trace with traceshark.
- * A [README.txt](https://raw.githubusercontent.com/cunctator/traceshark-resources/master/sample-traces2/README.txt) that describes the traces.
+ * Five sample traces in [sample-traces3](https://github.com/cunctator/traceshark-resources/tree/master/sample-traces3). These sample traces were obtained with perf when opening a large, circa 2GB, trace with traceshark.
+ * A [README.txt](https://raw.githubusercontent.com/cunctator/traceshark-resources/master/sample-traces3/README.txt) that describes the traces.
  * There is a screenshot for each trace, to show what it is supposed to look like.
 
 # How to use
