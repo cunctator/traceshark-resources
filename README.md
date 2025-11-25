@@ -16,7 +16,7 @@ Currently, the only things available in this repository are:
 
 You only need to unpack the files ending with .asc.xz like this:
 ```
-xz -dc xz -dc file_to_open_with_traceshark.asc.xz > file_to_open_with_traceshark.asc
+xz -dc file_to_open_with_traceshark.asc.xz > file_to_open_with_traceshark.asc
 ```
 
 The output file is the one that you open with traceshark. For more info about how to use traceshark, see the traceshark repository:
